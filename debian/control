@@ -1,0 +1,18 @@
+Source: liblog-dispatch-screen-color-perl
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 7)
+Build-Depends-Indep: perl (>= 5.8.9), libparams-validate-perl,
+  liblog-dispatch-perl
+Maintainer: Nathaniel Nutter <nnutter@genome.wustl.edu>
+Standards-Version: 3.8.3
+Homepage: http://search.cpan.org/dist/Log-Dispatch-Screen-Color/
+
+Package: liblog-dispatch-screen-color-perl
+Architecture: all
+Depends: ${perl:Depends}, ${misc:Depends}, libparams-validate-perl,
+  liblog-dispatch-perl
+Description: attached color for Log::Dispatch::Screen
+ attached color for Log::Dispatch::Screen
+ .
+ This description was automagically extracted from the module by dh-make-perl.
